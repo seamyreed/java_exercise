@@ -4,8 +4,8 @@ package exercise7;
  * Created by hyojeongyoon on 2016. 6. 26..
  */
 public class SutdaCard {
-    int number;
-    boolean isKwang;
+    final int number;
+    final boolean isKwang;
 
     public SutdaCard() {
         this(1, true);
